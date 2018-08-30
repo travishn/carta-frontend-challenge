@@ -7,11 +7,13 @@ class App extends Component {
       if (department === 'Home') {
         return (
           <div key={department}>
+            <DepartmentIndexItem department={department} info={this.props.journeyData[department]} />
           </div>
         )
       } else {
         return (
           <div key={department}>
+            <DepartmentIndexItem department={department} info={this.props.journeyData[department]} />
             <i className="fa fa-angle-down"></i>
           </div>
         )
