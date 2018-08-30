@@ -1,0 +1,47 @@
+.or {
+  color: hsl(17, 88%, 35%);
+}
+
+.or-bar {
+  background-color: hsl(17, 88%, 35%);
+}
+
+.or-edge {
+  border: 5px solid hsla(17, 88%, 35%, 70%);
+}
+
+.cvicu {
+  color: hsl(207, 39%, 44%)
+}
+
+.cvicu-bar {
+  background-color: hsl(207, 39%, 44%);
+}
+
+.cvicu-edge {
+  border: 5px solid hsla(207, 39%, 44%, 70%);
+}
+
+.acutecare {
+  color: hsl(208, 10%, 30%)
+}
+
+.acutecare-bar {
+  background-color: hsl(208, 10%, 30%);
+}
+
+.acutecare-edge {
+  border: 5px solid hsla(208, 10%, 30%, 70%);
+}
+
+.home {
+  color: hsl(207, 30%, 70%);
+}
+
+.home-bar {
+  background-color: hsl(207, 30%, 70%);
+}
+
+.home-edge {
+  display: none;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
+import DepartmentIndexItem from './department_index_item';
 
-class App extends Component {
+class App extends React.Component {
   renderDepartments() {
     const departments = Object.keys(this.props.journeyData);
     return departments.map(department => {
